@@ -5,9 +5,7 @@
 }
 
 body{
-    background-color: #9ba3aa;
-background-image: linear-gradient(90deg, #9ba3aa 0%, #a3a3bd 100%);
-
+    background-color: #ffffff;
 }
 
 .hidden {
@@ -29,6 +27,7 @@ background-image: linear-gradient(90deg, #9ba3aa 0%, #a3a3bd 100%);
 
 .app{
     background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -63,14 +62,14 @@ background-image: linear-gradient(90deg, #9ba3aa 0%, #a3a3bd 100%);
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .btn:hover:not([disabled]){
-    background: #363636;
-    color: white;
+    background: #36363627;
+    color: rgb(0, 0, 0);
 }
 
 .btn:disabled{
@@ -80,7 +79,7 @@ background-image: linear-gradient(90deg, #9ba3aa 0%, #a3a3bd 100%);
 #next-btn{
     background: transparent;
     border: solid 1px;
-    border-radius: 4px;
+    border-radius: 50px;
     font-weight: 500;
     width: 150px;
     padding: 10px;
@@ -91,14 +90,17 @@ background-image: linear-gradient(90deg, #9ba3aa 0%, #a3a3bd 100%);
 }
 
 #next-btn:hover{
-    background: #363636;
+    background: #36363675;
+    border: none;
     color: #fff;
 }
 
 .correct{
     background: rgb(173, 236, 173);
+    border: none;
 }
 
 .incorrect{
     background: rgb(233, 175, 175);
+    border: none;
 }
